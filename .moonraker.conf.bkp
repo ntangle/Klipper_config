@@ -37,7 +37,7 @@ frame_path = /tmp/timelapse/printer
 
 [power Printer_Switch]
 type = homeassistant
-address = 192.168.1.196
+address = 192.168.0.196
 port = 8123
 device = switch.3d_printer
 token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIyMjU2ZTEyNGM5ZDc0MTZjYTZlODJhYzE4MDBmYjFkYSIsImlhdCI6MTY3NzE5MjI2OSwiZXhwIjoxOTkyNTUyMjY5fQ.Vp1ut7Ckz2TIdRPVd_wLYp4pyWY9m4UOWhKP9c4IizI
@@ -49,7 +49,7 @@ restart_delay = 5.
 
 [power printer_light_switch]
 type = homeassistant
-address = 192.168.1.196
+address = 192.168.0.196
 port = 8123
 device = switch.3d_printer_light
 token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIyMjU2ZTEyNGM5ZDc0MTZjYTZlODJhYzE4MDBmYjFkYSIsImlhdCI6MTY3NzE5MjI2OSwiZXhwIjoxOTkyNTUyMjY5fQ.Vp1ut7Ckz2TIdRPVd_wLYp4pyWY9m4UOWhKP9c4IizI
